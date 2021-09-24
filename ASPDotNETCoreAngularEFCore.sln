@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPDotNETCoreAngularEFCore", "ASPDotNETCoreAngularEFCore\ASPDotNETCoreAngularEFCore.csproj", "{078B9DE1-2FE8-44E2-AC8D-F0D79E279391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{078B9DE1-2FE8-44E2-AC8D-F0D79E279391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078B9DE1-2FE8-44E2-AC8D-F0D79E279391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078B9DE1-2FE8-44E2-AC8D-F0D79E279391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078B9DE1-2FE8-44E2-AC8D-F0D79E279391}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D82E9BD-99D0-4755-9DDD-5A08B89109CD}
+	EndGlobalSection
+EndGlobal

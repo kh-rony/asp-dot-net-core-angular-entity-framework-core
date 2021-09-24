@@ -1,0 +1,31 @@
+<h1>Test</h1>
+
+<p>This component demonstrates fetching Test data from the server.</p>
+
+<p *ngIf="loading$ | async"><em>Loading...</em></p>
+
+<p>
+    <a [routerLink]="['/register-test']">Create New</a>
+</p>
+
+<table class='table'>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Location</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let test of testList | async">
+        <td>{{ test.id }}</td>
+        <td>{{ test.name }}</td>
+        <td>{{ test.location }}</td>
+        <td>
+        <td>
+            <a [routerLink]="['/test/update', test.id]">Update</a> |
+            <a [routerLink]="" (click)="deleteTest(test.id)">Delete</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
