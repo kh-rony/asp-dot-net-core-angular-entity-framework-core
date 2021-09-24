@@ -55,8 +55,8 @@ namespace ASPDotNETCoreAngularEFCore.DataAccessLayer
             // inserting 1 Reading row for 1 Object
             // total 500 Reading rows for 1 minute
             // total 7,20,000 Reading rows for 1 day
-            // total 2,62,8,00,000 Reading rows for 1 year
-            // total 5,25,6,00,000 Reading rows for 2 year
+            // total 26,28,00,000 Reading rows for 1 year
+            // total 52,56,00,000 Reading rows for 2 year
             var startDateTime = new DateTime(2018, 1, 0, 0, 0, 0);
             var endDateTime = new DateTime(2020, 0, 0, 0, 0, 0);
 
